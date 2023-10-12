@@ -43,6 +43,5 @@ streamlit.dataframe(my_data_rows)
 
 
 # Display the table on the page.
-streamlit.dataframe(fruits_to_show)
 fruit_choice = streamlit.text_input('What fruit would you like to add?','Kiwi')
 streamlit.write('Thanks for adding ', fruit_choice)
